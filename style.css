@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Tauri",sans-serif;
+}
+
+:root{
+    --primary: #53C79E;
+    --dark:#000;
+    --secondary-dark:#454545;
+    --light:#fff;
+    --grey: #ACACAC;
+}
+
+/* =======BUTTONS========== */
+
+.container .container-body .btn-filled{
+    display: inline-block;
+    width: 563px;
+    height: 54px;
+    border-radius: 20px;
+    background: var(--primary);
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px; 
+    letter-spacing: 1.2px;
+    margin: 60px 70px 2px 70px;
+    
+}
+
+.container .container-body .btn-outline{
+    width: 270px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid var(--dark);
+    background: var(--light);
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 50px; /* 138.889% */
+    letter-spacing: 0.9px;
+    margin: 39px  33px 40px 67px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}
+
+.container .container-body .btn-outline  img{
+    position: relative;
+    top: 9px;
+}
+
+.container .container-body .btn{
+    color: var(--secondary-dark);
+    background-color: transparent;
+    border: none;
+    float: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px; 
+}
+
+.container .container-body .btn img{
+    position: relative;
+    top: 12px;    
+}
+/* =============NAVBAR DESIGN============== */
+.container{
+    position: relative;
+    width: 80%;
+    height: 700px;
+    margin: 50px auto;
+}
+
+.container .container-head{
+    width: 30%;
+    height: 700px;
+    display: inline-block;
+    background: linear-gradient(155deg, #53C79D 13.55%, rgba(142, 231, 199, 0.00) 78.38%);
+}
+
+
+.container .container-head .logo{
+    margin: 16px 60px 55px 17px;
+}
+
+
+.container .container-head h1{
+    color: var(--light);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 104.167% */
+    letter-spacing: 1.2px;
+    margin: 55px 10px  10px 17px;
+}
+
+.container .container-head .head-img{
+    width: 429px;
+    height: 480px;
+    transform: rotate(-7.182deg);
+    position: absolute;
+    z-index: 5;
+}
+
+
+.container .container-body{
+    width: 70%;
+    height: 700px;
+    /* ===border radius doesnt == */
+    border-radius: 55px 0px 0px 55px;
+    background: var(--light);
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+
+.container .container-body .header{
+    color: var(--dark);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    letter-spacing: 1.2px;
+    margin: 48px 500px 39px 67px;
+}
+
+.container .container-body .registr{
+    margin: 39px  130px  60px 67px;
+}
+
+.container .container-body .registr input{
+    color: var(--grey);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 104.167% */
+    letter-spacing: 1.2px;
+    border: none;
+}
+
+
+.container .container-body .registr img{
+    margin-left: 240px ;
+
+}
+
+.container .container-body .registr hr{
+    width: 563.005px;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.container .container-body .ques{
+    color: var(--dark);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    letter-spacing: 0.9px;
+    margin: 11px 390px 76px 67px;
+}
+    
+.container .container-body .ques a{
+    color: var(--primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.9px;
+}
